@@ -1,0 +1,23 @@
+.Formulario{
+        max-width: 400px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(106, 90, 205);
+        background-color: #f9f9f9;
+}
+
+.Negrito {
+    font-weight: bold;
+
+}
+
+.Botao {
+    box-shadow: 0 0 2px rgba(106, 90, 205);
+    cursor: pointer;
+}
+
+
+
+
+
