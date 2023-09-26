@@ -50,3 +50,24 @@
         }
     }
 }
+.containerProduto{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinharBotaoAdicionar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botaoAdicionar{
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    padding: 1rem .5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}

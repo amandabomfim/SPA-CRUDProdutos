@@ -31,7 +31,7 @@ export default function Produtos() {
 
   return (
     <>
-      <div>
+      <div className={classes.containerProduto}>
         <h1>PRODUTOS</h1>
 
         <div>
@@ -91,6 +91,9 @@ export default function Produtos() {
             </tr>
           </tfoot>
         </table>
+        <div className={classes.alinharBotaoAdicionar}>
+        <Link to="/adicionar/produto"><button className={classes.botaoAdicionar}>Adicionar Produtos</button></Link>
+        </div>
       </div>
     </>
   );
